@@ -25,4 +25,4 @@ gr.Interface(
     outputs=gr.Textbox(label="Result"),
     title="Bear Classifier",
     submit_btn="Classify"
-).launch(share=True)
+).launch(share=True, debug=True, show_error=True)
